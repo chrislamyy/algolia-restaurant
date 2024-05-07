@@ -1,0 +1,29 @@
+{
+  "name": "se-assignment",
+  "version": "1.0.0",
+  "description": "Example template for Algolia JavaScript helper",
+  "keywords": [],
+  "private": true,
+  "dependencies": {
+    "algoliasearch": "4.20.0",
+    "algoliasearch-helper": "3.15.0",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.4.5",
+    "helper": "^0.0.13",
+    "helpers": "^0.0.6",
+    "jsonfile": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/algoliasearch": "3.30.1",
+    "node-sass": "^9.0.0",
+    "parcel-bundler": "1.9.7"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "merge-data": "node scripts/mergeRestaurantData.js"
+  },
+  "engines": {
+    "node": "^9.6.1"
+  }
+}
