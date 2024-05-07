@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url https://chrislamyy.github.io/algolia-restaurant/",
     "deploy": "gh-pages -d dist",
     "merge-data": "node scripts/mergeRestaurantData.js"
   },
