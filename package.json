@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "predeploy": "rm -rf dist && parcel build ./*.html --public-url ./",
+    "build": "parcel build index.html",
     "deploy": "gh-pages -d dist",
     "merge-data": "node scripts/mergeRestaurantData.js"
   },
